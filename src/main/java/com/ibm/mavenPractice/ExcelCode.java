@@ -9,9 +9,9 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class ExcelCode {
-	public static FileInputStream fs;
-	public static XSSFWorkbook wb;
-	public static XSSFSheet s;
+	public static FileInputStream fs;//excel sheetiney bytilote convert cheyan ullathe
+	public static XSSFWorkbook wb;//workbook use cheyanonkil 1st create this
+	public static XSSFSheet s;//each sheetiney kanikan
 	
 //string datas excel sheetil ullathe read cheyan ayite oru method create cheyanam
 	public static String readStringData(int i ,int j) throws IOException { //create an excel
